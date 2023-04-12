@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Open+Sans&family=Ubuntu:wght@300;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border-style: border-box;
+}
+a{
+    text-decoration: none;
+   
+}
+ul{
+    list-style: none;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.button{
+    padding: 16px 21px;
+    background-color: #ffc712;
+    border-radius: 5px;
+    font-weight: 500;
+    font-style: 20px;
+    color: #0f2f44;
+    display: inline-block;
+}
+ .align-center{
+    align-items: center;
+}
+    
+
+/* header here */
+header{
+    background-color: #0f2f44;
+    color: #fff;
+    padding: 18px 0;
+}
+header .row {
+    justify-content: space-between;
+}
+/* nav bar starts here */
+nav .logo{
+    width: 30%;
+   
+}
+/* nav bar end here */
+nav .menu{
+    width: 70%;
+    text-align: right;
+}
+nav .menu li{
+    display:inline-block ;
+}
+nav .menu li a{
+    display: block;
+    padding: 40px 12px;
+    font-family: 500;
+    color:#222222;
+    transition: 0.5s;
+}
+nav .menu li:hover a{
+    background-color: #fff9e6;
+    color: #ffd03a;
+}
+nav .menu ul li span { 
+    border: 1px solid #ddd;
+  width: 40px;
+  height: 40px;
+  display: block;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 100%;
+  color: #bbb;
+  cursor: pointer;
+}
+/* baneer starts here */
+#banner
+{
+   background-image: url(../img/banner.jpg);
+   height: 600px;
+   background-position:  center;
+   background-repeat: no-repeat;
+  
+}
+.banner-cnt{
+    width: 454px;
+}
+#banner .container,
+#banner .row{
+    height: 100%;
+}
+.banner-cnt h2{
+    font-size:50px ;
+    color:#0f2f44 ;
+    font-weight: 300 ;
+
+}
+.banner-cnt h1{
+    font-size: 80px;
+    font-family: Abril Fatface, cursive;
+    color: #0f2f44;
+    font-weight: 400;
+    line-height: 70px;
+}
+.banner-cnt h4{
+    font-weight: 400;
+    font-size: 32px;
+    color:#8484bf ;
+    letter-spacing:15PX;
+    margin: 10PX;
+}
+.banner-cnt P{
+    font-size: 14px;
+    font-weigHT:400;
+    color:#444444;
+    line-height: 25px;
+}
+
+.banner-cnt .button{
+    background-color: #8484bf;
+    color: #ffffff;
+    margin-top: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.banner-cnt .playbutton{
+    background-color: #8484bf;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    margin-left: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   font-size: 50px;
+   margin-top: 15px;
+   align-items: center;
+  
+}
+/* baneerr ends here */
+
+/* banner 1 starts here */
+#banner1
+{
+   background-image: url(../img/about-img.jpg);
+   height: 600px;
+   background-position: 80% 0;
+   background-repeat: no-repeat;
+   margin-top: 100px;
+  
+}
+.banner-cnt1{
+    width:500px;
+}
+
+#banner .container,
+#banner .row{
+    height: 100%;
+}
+.banner-cnt1 h2{
+    font-size:14px ;
+    color:#0f2f44 ;
+    font-weight: 400 ;
+
+}
+.banner-cnt1 h1{
+    font-size: 32px;
+    font-family: Abril Fatface, cursive;
+    color: #0f2f44;
+    font-weight: 400;
+    line-height: 70px;
+}
+.banner-cnt1 P1{
+    font-size: 16 px;
+    font-weigHT:400;
+    color:#0f2f44;
+    line-height: 25px;
+    font-family:  sans-serif;
+}
+.banner-cnt1 P2{
+    font-size: 16 px;
+    font-weigHT:400;
+    color:#0f2f44;
+    line-height: 25px;
+    font-family:  sans-serif;
+   display: inline-flex;
+}
+
+.banner-cnt1 .button2{
+    padding: 13px 32px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    font-weight: 500;
+    font-style: 20px;
+    color: #0f2f44;
+    display: inline-block;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-left:15px;
+}
+
+.banner-cnt1 .button1{
+    
+    padding: 13px 32px;
+    background-color: #ffc712;
+    border-radius: 5px;
+    font-weight: 500;
+    font-style: 20px;
+    color: #0f2f44;
+    display: inline-block;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-left:15px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+/* baneer end here */
